@@ -41,7 +41,7 @@ item1_quant = int(input("Enter item quantity:"))
 item1_total = float(item1_price * item1_quant)
 ```
 ```
-Print the receipt of the first items with the total cost
+#Print the receipt of the first items with the total cost
 
 print ("")
 print ("\nRECEIPT")
@@ -50,14 +50,15 @@ print ("Total cost: $%.2f" % item1_total)
 print ("")
 print ("")
 ```
-This code represents the second input from user
+```
+#This code represents the second input from user
 
 item2_name = str(input("Enter second food item name:\n"))
 item2_price = float(input("Enter item price:\n"))
 item2_quant = int(input("Enter item quantity:"))
 ```
 ```
-Represents the second calculation of total cost
+#Represents the second calculation of total cost
 
 item2_total = float(item2_price * item2_quant)
 ```
