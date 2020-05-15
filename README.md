@@ -29,16 +29,17 @@ After click on Finish you can selec create New project
 ## To execute the code Program: Food Receipt
 Copy the following code 
 ```
-This code represents the input from user
+#This code represents the input from user
 
 item1_name = str(input("Enter food item name:\n"))
 item1_price = float(input("Enter item price:\n"))
 item1_quant = int(input("Enter item quantity:"))
 ```
-Represents the calculation total cost
+```
+#Represents the calculation total cost
 
 item1_total = float(item1_price * item1_quant)
-
+```
 ```
 Print the receipt of the first items with the total cost
 
