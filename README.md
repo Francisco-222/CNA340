@@ -64,7 +64,7 @@ item2_total = float(item2_price * item2_quant)
 ```
 
 ```
-Represents the calculation for the customer gratuity
+#Represents the calculation for the customer gratuity
 
 totals = item1_total + item2_total
 gratuity = totals * 0.15
@@ -73,7 +73,7 @@ print ("")
 print ("")
 ```
 ```
-This print second item name cost with the total cost of both items with the gratuity percentage 
+#This print second item name cost with the total cost of both items with the gratuity percentage 
 
 print ("RECEIPT")
 print (item1_quant, item1_name, "@ $%.2f = $%.2f" %(item1_price, item1_total))
